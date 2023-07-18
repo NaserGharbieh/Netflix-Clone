@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes,Route } from 'react-router-dom'; 
 import Home from './components/Home';
+import FavList from './components/FavList';
 
 function App() {
   return (
     <div className="App">
-    <h1>hiiiii</h1>
+    
     <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/favorite" element={<FavList/>} />
 
 
       
