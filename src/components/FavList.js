@@ -1,11 +1,12 @@
-// import React from 'react';
+import React from 'react'; 
 
-// const FavList = () => {
-//     return (
-//         <div>
+
+const FavList = () => {
+    return (
+        <div>
             
-//         </div>
-//     );
-// }
+        </div>
+    );
+}
 
-// export default FavList;
+export default FavList;
